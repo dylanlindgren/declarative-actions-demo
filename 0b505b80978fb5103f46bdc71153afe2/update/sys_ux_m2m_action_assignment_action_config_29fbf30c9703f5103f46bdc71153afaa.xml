@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_action_assignment_action_config">
+    <sys_ux_m2m_action_assignment_action_config action="INSERT_OR_UPDATE">
+        <action_assignment display_value="wds_open_custom_modal_list">f9dabb889703f5103f46bdc71153af92</action_assignment>
+        <action_configuration display_value="Declarative Actions Demo">980abb489703f5103f46bdc71153af04</action_configuration>
+        <sys_class_name>sys_ux_m2m_action_assignment_action_config</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2023-12-07 05:45:44</sys_created_on>
+        <sys_id>29fbf30c9703f5103f46bdc71153afaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Declarative Action Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Action Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_ux_m2m_action_assignment_action_config_29fbf30c9703f5103f46bdc71153afaa</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2023-12-07 05:45:44</sys_updated_on>
+    </sys_ux_m2m_action_assignment_action_config>
+</record_update>
