@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_action_layout_item">
+    <sys_ux_m2m_action_layout_item action="DELETE">
+        <active>true</active>
+        <sys_class_name>sys_ux_m2m_action_layout_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 03:24:39</sys_created_on>
+        <sys_id>80386345472b31109387b979316d43cf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_ux_m2m_action_layout_item_80386345472b31109387b979316d43cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 03:32:32</sys_updated_on>
+        <table>incident</table>
+        <ux_form_action_layout display_value="DA Demo">902a570547e731109387b979316d4388</ux_form_action_layout>
+        <ux_form_action_layout_item display_value="Set Episode Randomly">b5a7ab05472b31109387b979316d4352</ux_form_action_layout_item>
+    </sys_ux_m2m_action_layout_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</application>
+        <file_path/>
+        <instance_id>5044d659db2efd98ae4c9027c59619f7</instance_id>
+        <instance_name>dev212741</instance_name>
+        <name>sys_ux_m2m_action_layout_item_80386345472b31109387b979316d43cf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_action_layout_item"><sys_ux_m2m_action_layout_item action="INSERT_OR_UPDATE"><active>true</active><sys_class_name>sys_ux_m2m_action_layout_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-04 03:24:39</sys_created_on><sys_id>80386345472b31109387b979316d43cf</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package><sys_policy/><sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope><sys_update_name>sys_ux_m2m_action_layout_item_80386345472b31109387b979316d43cf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-04 03:32:32</sys_updated_on><table>incident</table><ux_form_action_layout display_value="DA Demo">902a570547e731109387b979316d4388</ux_form_action_layout><ux_form_action_layout_item display_value="Set Episode Randomly">b5a7ab05472b31109387b979316d4352</ux_form_action_layout_item></sys_ux_m2m_action_layout_item></record_update>]]></payload>
+        <payload_hash>1824779475</payload_hash>
+        <record_name>incident</record_name>
+        <reverted_from/>
+        <source>3b250785476731109387b979316d43e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 03:32:32</sys_created_on>
+        <sys_id>97f9e7c5472b31109387b979316d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cd2879dcf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 03:32:32</sys_updated_on>
+        <type>Sys Ux M2m Action Layout Item</type>
+        <update_guid>9ff9e7c59b2b3110b2a33a0498e45b46</update_guid>
+        <update_guid_history>9ff9e7c59b2b3110b2a33a0498e45b46:1824779475,c4386345c72b311077fb7bd9164aa8d0:-1244657694</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 05:03:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_m2m_action_layout_item">sys_ux_m2m_action_layout_item</sys_db_object>
+        <sys_id>3036a5c9e5554d9084e44f4e770c8440</sys_id>
+        <sys_metadata>80386345472b31109387b979316d43cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_scope_delete display_value="">5990b41fb6ba480b8bd94f05e78271a1</sys_scope_delete>
+        <sys_update_name>sys_ux_m2m_action_layout_item_80386345472b31109387b979316d43cf</sys_update_name>
+        <sys_update_version display_value="sys_ux_m2m_action_layout_item_80386345472b31109387b979316d43cf">97f9e7c5472b31109387b979316d4347</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 05:03:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

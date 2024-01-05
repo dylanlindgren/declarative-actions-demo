@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template">
+    <sys_ux_composite_data_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Podcast Episode</name>
+        <sys_class_name>sys_ux_composite_data_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 07:07:19</sys_created_on>
+        <sys_id>581b9451472f31109387b979316d436d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Podcast Episode</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_581b9451472f31109387b979316d436d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 07:16:02</sys_updated_on>
+        <template>{&#13;
+	"component": "now-card-evam-record",&#13;
+	"staticValues": {&#13;
+		"highlightedHeaderIcon": {&#13;
+			"translatable": false,&#13;
+			"key": "clock-outline"&#13;
+		},&#13;
+		"highlightedHeaderBkgColor": {&#13;
+			"translatable": false,&#13;
+			"key": "moderate"&#13;
+		},&#13;
+		"subtitleIcon": {&#13;
+			"translatable": false,&#13;
+			"key": "calendar-fill"&#13;
+		},&#13;
+		"imageType": {&#13;
+			"translatable": false,&#13;
+			"key": "image"&#13;
+		},&#13;
+		"subtitleImageType": {&#13;
+			"translatable": false,&#13;
+			"key": "avatar"&#13;
+		},&#13;
+		"detailLabelOne": {&#13;
+			"translatable": true,&#13;
+			"key": "Email address"&#13;
+		},&#13;
+		"detailLabelTwo": {&#13;
+			"translatable": true,&#13;
+			"key": "Works for"&#13;
+		},&#13;
+		"detailLabelThree": {&#13;
+			"translatable": true,&#13;
+			"key": "Location/address"&#13;
+		},&#13;
+		"showCardShadow": {&#13;
+			"translatable": false,&#13;
+			"key": false&#13;
+		}&#13;
+&#13;
+	},&#13;
+	"mappings": {&#13;
+		"highlightedHeaderLabel": "name",&#13;
+		"textHeaderLabel": "name",&#13;
+		"titleLabel": "name",&#13;
+		"imageURL": "name",&#13;
+		"subtitle": "name",&#13;
+		"subtitleAvatarName": "name",&#13;
+		"subtitleAvatarURL": "name",&#13;
+		"detailValueOne": "name",&#13;
+		"detailValueTwo": "name",&#13;
+		"detailValueThree": "name",&#13;
+        "buttonLabel": "name",&#13;
+        "cardLabel": "name"&#13;
+	},&#13;
+	"actionMappings": {&#13;
+		"mainActions": ["DA_DEMO#PLAY_FROM_START", "DA_DEMO#PLAY_FROM_1MIN"],&#13;
+		"clickAction": "navigation"&#13;
+	}&#13;
+}</template>
+    </sys_ux_composite_data_template>
+</record_update>

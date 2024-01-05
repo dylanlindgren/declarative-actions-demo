@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="DELETE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>Play Podcast Episode</name>
+        <parent_macroponent display_value="Default – Forms">41894b8d476731109387b979316d438e</parent_macroponent>
+        <source_component/>
+        <source_da display_value="DA_DEMO#PLAY_PODCAST_EPISODE">c6e6d30147e731109387b979316d4300</source_da>
+        <source_element_id>form</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 02:19:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>36299f8147e731109387b979316d43d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Play Podcast Episode</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_36299f8147e731109387b979316d43d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 02:19:03</sys_updated_on>
+        <target_event display_value="(DA Demo) Play Episode in Modal">6bff03c547a731109387b979316d43c9</target_event>
+        <target_payload_mapping>{
+    "container": {
+        "audioFileURL": {
+            "binding": {
+                "address": [
+                    "audioFileUrl"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "episodeId": {
+            "binding": {
+                "address": [
+                    "episodeId"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "startAtTime": {
+            "binding": {
+                "address": [
+                    "startAtTime"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        }
+    },
+    "type": "MAP_CONTAINER"
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</application>
+        <file_path/>
+        <instance_id>5044d659db2efd98ae4c9027c59619f7</instance_id>
+        <instance_name>dev212741</instance_name>
+        <name>sys_ux_addon_event_mapping_36299f8147e731109387b979316d43d0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping"><sys_ux_addon_event_mapping action="INSERT_OR_UPDATE"><active>true</active><controller/><description/><name>Play Podcast Episode</name><parent_macroponent display_value="Default – Forms">41894b8d476731109387b979316d438e</parent_macroponent><source_component/><source_da display_value="DA_DEMO#PLAY_PODCAST_EPISODE">c6e6d30147e731109387b979316d4300</source_da><source_element_id>form</source_element_id><sys_class_name>sys_ux_addon_event_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-04 02:19:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>36299f8147e731109387b979316d43d0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Play Podcast Episode</sys_name><sys_overrides/><sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package><sys_policy/><sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope><sys_update_name>sys_ux_addon_event_mapping_36299f8147e731109387b979316d43d0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-04 02:19:03</sys_updated_on><target_event display_value="(DA Demo) Play Episode in Modal">6bff03c547a731109387b979316d43c9</target_event><target_payload_mapping>{
+    "container": {
+        "audioFileURL": {
+            "binding": {
+                "address": [
+                    "audioFileUrl"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "episodeId": {
+            "binding": {
+                "address": [
+                    "episodeId"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "startAtTime": {
+            "binding": {
+                "address": [
+                    "startAtTime"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        }
+    },
+    "type": "MAP_CONTAINER"
+}</target_payload_mapping></sys_ux_addon_event_mapping></record_update>]]></payload>
+        <payload_hash>2083382593</payload_hash>
+        <record_name>Play Podcast Episode</record_name>
+        <reverted_from/>
+        <source>3b250785476731109387b979316d43e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 02:19:03</sys_created_on>
+        <sys_id>b2299f8147e731109387b979316d43d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cd24456670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 02:19:03</sys_updated_on>
+        <type>UX Add-on Event Mapping</type>
+        <update_guid>f6299f818fe73110a59805356c6a2cd1</update_guid>
+        <update_guid_history>f6299f818fe73110a59805356c6a2cd1:2083382593</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 02:19:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_addon_event_mapping">sys_ux_addon_event_mapping</sys_db_object>
+        <sys_id>842e1d8c37714ddfa00e74c4342f6701</sys_id>
+        <sys_metadata>36299f8147e731109387b979316d43d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Play Podcast Episode</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_scope_delete display_value="">5990b41fb6ba480b8bd94f05e78271a1</sys_scope_delete>
+        <sys_update_name>sys_ux_addon_event_mapping_36299f8147e731109387b979316d43d0</sys_update_name>
+        <sys_update_version display_value="sys_ux_addon_event_mapping_36299f8147e731109387b979316d43d0">b2299f8147e731109387b979316d43d2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 02:19:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

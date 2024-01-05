@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>DA_DEMO#PREVIEW_AUDIO_FILE</action_key>
+        <applicable_to>e48b12c02d559110f8778479e97d46f0</applicable_to>
+        <description/>
+        <label>Preview Audio File</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_063e2459476f31109387b979316d43af</payload_field_table>
+        <payload_template>{&#13;
+    "audioFileUrl": ""&#13;
+}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 08:31:09</sys_created_on>
+        <sys_id>063e2459476f31109387b979316d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Preview Audio File</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_063e2459476f31109387b979316d43af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 08:31:09</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

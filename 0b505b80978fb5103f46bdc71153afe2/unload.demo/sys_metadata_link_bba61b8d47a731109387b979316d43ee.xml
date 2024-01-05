@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>f1e39fc947a731109387b979316d43f1</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_da_demo_episode">
+    <x_snc_da_demo_episode action="INSERT_OR_UPDATE">
+        <audio_file_url>https://sharptech.fm/assets/sharptech0112_withChapters.mp3</audio_file_url>
+        <name>Sharp Tech – Epsiode 112</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 01:58:35</sys_created_on>
+        <sys_id>f1e39fc947a731109387b979316d43f1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 02:05:18</sys_updated_on>
+    </x_snc_da_demo_episode>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 02:08:11</sys_created_on>
+        <sys_id>bba61b8d47a731109387b979316d43ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sharp Tech – Epsiode 112</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_metadata_link_bba61b8d47a731109387b979316d43ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 02:08:11</sys_updated_on>
+        <tablename>x_snc_da_demo_episode</tablename>
+    </sys_metadata_link>
+</record_update>

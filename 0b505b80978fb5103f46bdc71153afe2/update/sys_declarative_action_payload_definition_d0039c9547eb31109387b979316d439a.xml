@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>DA_DEMO#ADD_TO_PLAYLIST</action_key>
+        <applicable_to>c3547169534723003eddddeeff7b126c,d91731a9534723003eddddeeff7b121c</applicable_to>
+        <description/>
+        <label>Add to Playlist</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_d0039c9547eb31109387b979316d439a</payload_field_table>
+        <payload_template>{&#13;
+    "episodeSysIds": "{{sysIds}}"&#13;
+}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 06:32:14</sys_created_on>
+        <sys_id>d0039c9547eb31109387b979316d439a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Add to Playlist</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_d0039c9547eb31109387b979316d439a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 06:45:59</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

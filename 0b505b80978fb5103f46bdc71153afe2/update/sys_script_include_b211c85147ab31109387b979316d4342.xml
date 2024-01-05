@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_da_demo.DADemoBreadcrumbItemsProvider</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Implements extension point sn_app_shell_aw.AppShellBreadcrumbItemsProvider
+Breadcrumb app shell item data provider. Each application has to implement it's own extension point and provide the data required to render breadcrumb items</description>
+        <name>DADemoBreadcrumbItemsProvider</name>
+        <script><![CDATA[var DADemoBreadcrumbItemsProvider = Class.create();
+DADemoBreadcrumbItemsProvider.prototype = {
+	initialize: function () {
+		gs.info('DL BREAD');
+	},
+
+	/**
+	 * @param {{
+	 * appId: string,
+	 * route: string,
+	 * fields: Record<string, any>,
+	 * params: Record<string, any>,
+	 * fetchStaticRoutes: boolean,
+	 * selectedToolbarItem: {
+	 *  availability: any, badge: any, group?: string,
+	 * 	icon?: string, id: string,
+	 * 	label: string | { message: string, translatable: boolean},
+	 * 	order?: number, presence?: any,
+	 * 	routeInfo: {route: string, fields: Record<string, any>, params?: Record<string, any>}
+	 * }
+	 * prevBreadcrumbRoute: { route: string, fields?: Record<string, any>, params?: Record<string, any>},
+	 * prevSelectedContent: { route: string, fields?: Record<string, any>, params?: Record<string, any>}
+	 * }} context
+		 * @returns {{
+		 *		operation?: "REPLACE" | "APPEND" | "REPLACE_LAST_ITEM",
+		 * 		items: Array<{
+		 * 					label: string,
+		 * 					icon?: string,
+		 *					routeInfo: {
+		 *						route: string,
+		 *						fields: Record<string, any>
+		 *						params: Record<string,any>,
+		 *						targetRoute?: "current" | { route: string, fields?: Record<string, any>, params?: <string,any> }
+		 * 					},
+		 *					operation?: "REPLACE" | "APPEND" | "REPLACE_LAST_ITEM",
+		 *                  hideBreadcrumb?: boolean,
+		 * 				>}}
+		 */
+	provideItems: function (context) {
+
+		if (context.route === 'forms') {
+			return {
+				operation: "REPLACE",
+				items: [{
+					label: "Forms",
+					icon: "form-outline",
+					routeInfo: {
+						route: 'forms',
+						fields: {},
+						params: {},
+						targetRoute: {
+							route: 'forms',
+							fields: {},
+							params: {}
+						}
+					}
+				}]
+			};
+		}
+
+		if (context.route === 'lists') {
+return {
+				operation: "REPLACE",
+				items: [{
+					label: "Lists",
+					icon: "list-outline",
+					routeInfo: {
+						route: 'lists',
+						fields: {},
+						params: {},
+						targetRoute: {
+							route: 'lists',
+							fields: {},
+							params: {}
+						}
+					}
+				}]
+			};
+		}
+
+		if (context.route === 'service-catalog') {
+return {
+				operation: "REPLACE",
+				items: [{
+					label: "Service Catalog",
+					icon: "catalog-outline",
+					routeInfo: {
+						route: 'service-catalog',
+						fields: {},
+						params: {},
+						targetRoute: {
+							route: 'service-catalog',
+							fields: {},
+							params: {}
+						}
+					}
+				}]
+			};
+		}
+
+		if (context.route === 'playbook') {
+return {
+				operation: "REPLACE",
+				items: [{
+					label: "Playbook",
+					icon: "playbook-outline",
+					routeInfo: {
+						route: 'playbook',
+						fields: {},
+						params: {},
+						targetRoute: {
+							route: 'playbook',
+							fields: {},
+							params: {}
+						}
+					}
+				}]
+			};
+		}
+
+		if (context.route === 'kanban') {
+return {
+				operation: "REPLACE",
+				items: [{
+					label: "Kanban",
+					icon: "board-flexible-outline",
+					routeInfo: {
+						route: 'kanban',
+						fields: {},
+						params: {},
+						targetRoute: {
+							route: 'kanban',
+							fields: {},
+							params: {}
+						}
+					}
+				}]
+			};
+		}
+
+		if (context.route === 'evam') {
+return {
+				operation: "REPLACE",
+				items: [{
+					label: "EVAM",
+					icon: "address-card-outline",
+					routeInfo: {
+						route: 'evam',
+						fields: {},
+						params: {},
+						targetRoute: {
+							route: 'evam',
+							fields: {},
+							params: {}
+						}
+					}
+				}]
+			};
+		}
+
+		return {
+			operation: "REPLACE",
+			items: [{
+				label: "Declarative Actions Demo",
+				icon: "home-outline",
+				routeInfo: {
+					route: 'home',
+					fields: {},
+					params: {},
+					targetRoute: {
+						route: 'home',
+						fields: {},
+						params: {}
+					}
+				}
+			}]
+		};
+
+	},
+	getAppId: function () {
+		gs.info('DL BREAD getAppId');
+		/** fill this value with your sys_ux_page_registry */
+		return "fa788b0d476731109387b979316d43c4";
+	},
+	getHandledRoutes: function () {
+		gs.info('DL BREAD getHandledRoutes');
+		/** Fill  all this toolbar items routes which this extension point handles */
+		return ["home"];
+	},
+	/**
+	 * @param {{
+	 * appId: string,
+	 * route: string,
+	 * fields: Record<string, any>,
+	 * params: Record<string, any>,
+	 * fetchStaticRoutes: boolean,
+	 * selectedToolbarItem: {
+	 *  availability: any, badge: any, group?: string,
+	 * 	icon?: string, id: string,
+	 * 	label: string | { message: string, translatable: boolean},
+	 * 	order?: number, presence?: any,
+	 * 	routeInfo: {route: string, fields: Record<string, any>, params?: Record<string, any>}
+	 * }
+	 * prevBreadcrumbRoute: { route: string, fields?: Record<string, any>, params?: Record<string, any>},
+	 * prevSelectedContent: { route: string, fields?: Record<string, any>, params?: Record<string, any>}
+	 * }} context
+	 * @returns {Array<{
+	 * 		items: Array<{
+	 * 					label: string,
+	 * 					icon?: string,
+	 *					routeInfo: {
+	 *						route: string,
+	 *						fields: Record<string, any>
+	 *						params: Record<string,any>,
+	 *						targetRoute?: "current" | { route: string, fields?: Record<string, any>, params?: <string,any> }
+	 * 					},
+	 *					operation?: "REPLACE" | "APPEND" | "REPLACE_LAST_ITEM",
+	 *                  hideBreadcrumb?: boolean,
+	 * 				>}>}
+	 */
+	getStaticRoutes: function (context) {
+		gs.info('DL BREAD getStaticRoutes');
+		/**
+		* Return All your static routes from here
+		*/
+		return {
+			items: []
+		};
+	},
+	type: 'DADemoBreadcrumbItemsProvider'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 05:13:31</sys_created_on>
+        <sys_id>b211c85147ab31109387b979316d4342</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>DADemoBreadcrumbItemsProvider</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_script_include_b211c85147ab31109387b979316d4342</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 08:50:07</sys_updated_on>
+    </sys_script_include>
+</record_update>

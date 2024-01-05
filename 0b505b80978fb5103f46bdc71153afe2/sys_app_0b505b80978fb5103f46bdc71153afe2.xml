@@ -14,8 +14,8 @@
         <license_definition/>
         <license_model>none</license_model>
         <logo/>
-        <menu/>
-        <name>Declarative Action Demo</name>
+        <menu display_value="Declarative Actions Demo">37558b49476731109387b979316d4387</menu>
+        <name>Declarative Actions Demo</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -31,13 +31,13 @@
         <sys_created_by>dylan.lindgren</sys_created_by>
         <sys_created_on>2023-12-07 02:35:13</sys_created_on>
         <sys_id>0b505b80978fb5103f46bdc71153afe2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dylan.lindgren</sys_updated_by>
-        <sys_updated_on>2023-12-07 02:35:13</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 00:52:58</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
-        <user_role/>
+        <user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</user_role>
         <vendor/>
         <vendor_prefix/>
         <version>1.0.0</version>

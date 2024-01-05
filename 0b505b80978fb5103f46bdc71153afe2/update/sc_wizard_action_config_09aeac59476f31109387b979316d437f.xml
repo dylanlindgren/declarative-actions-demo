@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_action_config">
+    <sc_wizard_action_config action="INSERT_OR_UPDATE">
+        <applies_to>all</applies_to>
+        <button_type_override/>
+        <declarative_action display_value="DA_DEMO#PREVIEW_AUDIO_FILE">306e2859476f31109387b979316d43c0</declarative_action>
+        <force_save>false</force_save>
+        <global>false</global>
+        <label_override/>
+        <name>Preview Audio File</name>
+        <overflow>false</overflow>
+        <sys_class_name>sc_wizard_action_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 08:33:09</sys_created_on>
+        <sys_id>09aeac59476f31109387b979316d437f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Preview Audio File</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sc_wizard_action_config_09aeac59476f31109387b979316d437f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 08:35:41</sys_updated_on>
+    </sc_wizard_action_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=09aeac59476f31109387b979316d437f"/>
+</record_update>

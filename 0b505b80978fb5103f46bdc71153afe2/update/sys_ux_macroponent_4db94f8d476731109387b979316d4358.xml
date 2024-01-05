@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "4e24b0556fdcf0a629b41408a5b98d86",
+            "type": "MACROPONENT"
+        },
+        "elementId": "kanban_board_1",
+        "elementLabel": "Kanban Board 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "arrowNavigableElements": {
+                "type": "JSON_LITERAL",
+                "value": ".now-card,.sn-vtb-lane-header,.swimlane-add-btn,.lane-add-btn,.add-card,.sn-vtb-swimlane-header .container"
+            },
+            "cardConfigOverride": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "placeholderCard": {
+                        "draggable": false,
+                        "tag": "sn-vtb-freeform-card-editable"
+                    }
+                }
+            },
+            "cardDragPlaceholderTag": {
+                "type": "JSON_LITERAL",
+                "value": "sn-vtb-card-src-placeholder"
+            },
+            "cardDraggable": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "cardDropPlaceholderTag": {
+                "type": "JSON_LITERAL",
+                "value": "sn-vtb-card-dest-placeholder"
+            },
+            "cardTag": {
+                "type": "JSON_LITERAL",
+                "value": "sn-vtb-card"
+            },
+            "cards": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    {
+                        "all_sla": [
+                            
+                        ],
+                        "attachments": [
+                            
+                        ],
+                        "board_id": "460a042d476f71109387b979316d4375",
+                        "checklist": null,
+                        "countPerLaneInSwimlane": 1,
+                        "id": "4c1a006d476f71109387b979316d435f",
+                        "labelsCount": 0,
+                        "lane_id": "860a042d476f71109387b979316d437b",
+                        "options": {
+                            "board_type": "FREEFORM",
+                            "card_type": "compact",
+                            "due_date_field": "due_date",
+                            "menu_actions": [
+                                {
+                                    "children": [
+                                        {
+                                            "id": "archive_card",
+                                            "label": "Archive Card",
+                                            "uuid": "4c1a006d476f71109387b979316d435f"
+                                        }
+                                    ],
+                                    "id": "archiveCard_section",
+                                    "uuid": "4c1a006d476f71109387b979316d435f"
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "id": "move_card",
+                                            "label": "Move Card",
+                                            "uuid": "4c1a006d476f71109387b979316d435f"
+                                        }
+                                    ],
+                                    "id": "cardActions_section",
+                                    "uuid": "4c1a006d476f71109387b979316d435f"
+                                }
+                            ],
+                            "show_card_info": false,
+                            "show_cover_image": false,
+                            "show_labels": true,
+                            "show_sla": false
+                        },
+                        "order": 0,
+                        "orderPerLaneInSwimlane": 1,
+                        "primary_key_field": "sys_id",
+                        "record": {
+                            "additional_assignee_list": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "",
+                                "is_choice_table": false,
+                                "is_multi_text": true,
+                                "is_reference": false,
+                                "label": "Additional assignee list",
+                                "max_length": 4000,
+                                "name": "additional_assignee_list",
+                                "value": [
+                                    
+                                ]
+                            },
+                            "additional_assignee_reference_qualifier": "",
+                            "assigned_to": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": true,
+                                "label": "Assigned to",
+                                "max_length": 32,
+                                "name": "assigned_to",
+                                "value": null
+                            },
+                            "assigned_to_dependencies": "assignment_group",
+                            "assigned_to_reference_qualifier": "",
+                            "assignment_group": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": true,
+                                "label": "Assignment group",
+                                "max_length": 32,
+                                "name": "assignment_group",
+                                "value": ""
+                            },
+                            "can_read": true,
+                            "description": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "",
+                                "is_choice_table": false,
+                                "is_multi_text": true,
+                                "is_reference": false,
+                                "label": "Description",
+                                "max_length": 4000,
+                                "name": "description",
+                                "value": ""
+                            },
+                            "due_date": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "Due date",
+                                "max_length": 40,
+                                "name": "due_date",
+                                "value": ""
+                            },
+                            "number": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "PTSK0001001",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "Number",
+                                "max_length": 40,
+                                "name": "number",
+                                "value": "PTSK0001001"
+                            },
+                            "short_description": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "Test123",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "Short description",
+                                "max_length": 160,
+                                "name": "short_description",
+                                "value": "Test123"
+                            },
+                            "state": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "Open",
+                                "is_choice_table": true,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "State",
+                                "max_length": 40,
+                                "name": "state",
+                                "value": "1"
+                            },
+                            "sys_class_name": "vtb_task",
+                            "sys_id": "370a006d476f71109387b979316d435a",
+                            "sys_updated_by": {
+                                "can_read": true,
+                                "can_write": false,
+                                "display_value": "admin",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "Updated by",
+                                "max_length": 40,
+                                "name": "sys_updated_by",
+                                "value": "admin"
+                            },
+                            "sys_updated_on": {
+                                "can_read": true,
+                                "can_write": false,
+                                "display_value": "2024-01-04 16:31:08",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "Updated",
+                                "max_length": 40,
+                                "name": "sys_updated_on",
+                                "value": "2024-01-05 00:31:08"
+                            }
+                        },
+                        "removed": false,
+                        "sla": null,
+                        "swim_lane_id": "",
+                        "sys_id": "4c1a006d476f71109387b979316d435f",
+                        "sys_updated_on": "2024-01-05 00:31:08",
+                        "task_id": "370a006d476f71109387b979316d435a",
+                        "title": "Test123",
+                        "users": {
+                            "additional_assignees": [
+                                
+                            ],
+                            "primary_assignees": [
+                                
+                            ]
+                        }
+                    },
+                    {
+                        "all_sla": [
+                            
+                        ],
+                        "attachments": [
+                            
+                        ],
+                        "board_id": "460a042d476f71109387b979316d4375",
+                        "checklist": null,
+                        "countPerLaneInSwimlane": 1,
+                        "id": "5d1a006d476f71109387b979316d430c",
+                        "labelsCount": 0,
+                        "lane_id": "ca0a042d476f71109387b979316d437c",
+                        "options": {
+                            "board_type": "FREEFORM",
+                            "card_type": "compact",
+                            "due_date_field": "due_date",
+                            "menu_actions": [
+                                {
+                                    "children": [
+                                        {
+                                            "id": "archive_card",
+                                            "label": "Archive Card",
+                                            "uuid": "5d1a006d476f71109387b979316d430c"
+                                        }
+                                    ],
+                                    "id": "archiveCard_section",
+                                    "uuid": "5d1a006d476f71109387b979316d430c"
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "id": "move_card",
+                                            "label": "Move Card",
+                                            "uuid": "5d1a006d476f71109387b979316d430c"
+                                        }
+                                    ],
+                                    "id": "cardActions_section",
+                                    "uuid": "5d1a006d476f71109387b979316d430c"
+                                }
+                            ],
+                            "show_card_info": false,
+                            "show_cover_image": false,
+                            "show_labels": true,
+                            "show_sla": false
+                        },
+                        "order": 0,
+                        "orderPerLaneInSwimlane": 1,
+                        "primary_key_field": "sys_id",
+                        "record": {
+                            "additional_assignee_list": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "",
+                                "is_choice_table": false,
+                                "is_multi_text": true,
+                                "is_reference": false,
+                                "label": "Additional assignee list",
+                                "max_length": 4000,
+                                "name": "additional_assignee_list",
+                                "value": [
+                                    
+                                ]
+                            },
+                            "additional_assignee_reference_qualifier": "",
+                            "assigned_to": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": true,
+                                "label": "Assigned to",
+                                "max_length": 32,
+                                "name": "assigned_to",
+                                "value": null
+                            },
+                            "assigned_to_dependencies": "assignment_group",
+                            "assigned_to_reference_qualifier": "",
+                            "assignment_group": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": true,
+                                "label": "Assignment group",
+                                "max_length": 32,
+                                "name": "assignment_group",
+                                "value": ""
+                            },
+                            "can_read": true,
+                            "description": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "",
+                                "is_choice_table": false,
+                                "is_multi_text": true,
+                                "is_reference": false,
+                                "label": "Description",
+                                "max_length": 4000,
+                                "name": "description",
+                                "value": ""
+                            },
+                            "due_date": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "Due date",
+                                "max_length": 40,
+                                "name": "due_date",
+                                "value": ""
+                            },
+                            "number": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "PTSK0001003",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "Number",
+                                "max_length": 40,
+                                "name": "number",
+                                "value": "PTSK0001003"
+                            },
+                            "short_description": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "fgdgfdgdf",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "Short description",
+                                "max_length": 160,
+                                "name": "short_description",
+                                "value": "fgdgfdgdf"
+                            },
+                            "state": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "Open",
+                                "is_choice_table": true,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "State",
+                                "max_length": 40,
+                                "name": "state",
+                                "value": "1"
+                            },
+                            "sys_class_name": "vtb_task",
+                            "sys_id": "1d1a006d476f71109387b979316d430b",
+                            "sys_updated_by": {
+                                "can_read": true,
+                                "can_write": false,
+                                "display_value": "admin",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "Updated by",
+                                "max_length": 40,
+                                "name": "sys_updated_by",
+                                "value": "admin"
+                            },
+                            "sys_updated_on": {
+                                "can_read": true,
+                                "can_write": false,
+                                "display_value": "2024-01-04 16:31:13",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "Updated",
+                                "max_length": 40,
+                                "name": "sys_updated_on",
+                                "value": "2024-01-05 00:31:13"
+                            }
+                        },
+                        "removed": false,
+                        "sla": null,
+                        "swim_lane_id": "",
+                        "sys_id": "5d1a006d476f71109387b979316d430c",
+                        "sys_updated_on": "2024-01-05 00:31:13",
+                        "task_id": "1d1a006d476f71109387b979316d430b",
+                        "title": "fgdgfdgdf",
+                        "users": {
+                            "additional_assignees": [
+                                
+                            ],
+                            "primary_assignees": [
+                                
+                            ]
+                        }
+                    },
+                    {
+                        "all_sla": [
+                            
+                        ],
+                        "attachments": [
+                            
+                        ],
+                        "board_id": "460a042d476f71109387b979316d4375",
+                        "checklist": null,
+                        "countPerLaneInSwimlane": 1,
+                        "id": "b81a006d476f71109387b979316d431e",
+                        "labelsCount": 0,
+                        "lane_id": "860a042d476f71109387b979316d437c",
+                        "options": {
+                            "board_type": "FREEFORM",
+                            "card_type": "compact",
+                            "due_date_field": "due_date",
+                            "menu_actions": [
+                                {
+                                    "children": [
+                                        {
+                                            "id": "archive_card",
+                                            "label": "Archive Card",
+                                            "uuid": "b81a006d476f71109387b979316d431e"
+                                        }
+                                    ],
+                                    "id": "archiveCard_section",
+                                    "uuid": "b81a006d476f71109387b979316d431e"
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "id": "move_card",
+                                            "label": "Move Card",
+                                            "uuid": "b81a006d476f71109387b979316d431e"
+                                        }
+                                    ],
+                                    "id": "cardActions_section",
+                                    "uuid": "b81a006d476f71109387b979316d431e"
+                                }
+                            ],
+                            "show_card_info": false,
+                            "show_cover_image": false,
+                            "show_labels": true,
+                            "show_sla": false
+                        },
+                        "order": 0,
+                        "orderPerLaneInSwimlane": 1,
+                        "primary_key_field": "sys_id",
+                        "record": {
+                            "additional_assignee_list": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "",
+                                "is_choice_table": false,
+                                "is_multi_text": true,
+                                "is_reference": false,
+                                "label": "Additional assignee list",
+                                "max_length": 4000,
+                                "name": "additional_assignee_list",
+                                "value": [
+                                    
+                                ]
+                            },
+                            "additional_assignee_reference_qualifier": "",
+                            "assigned_to": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": true,
+                                "label": "Assigned to",
+                                "max_length": 32,
+                                "name": "assigned_to",
+                                "value": null
+                            },
+                            "assigned_to_dependencies": "assignment_group",
+                            "assigned_to_reference_qualifier": "",
+                            "assignment_group": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": true,
+                                "label": "Assignment group",
+                                "max_length": 32,
+                                "name": "assignment_group",
+                                "value": ""
+                            },
+                            "can_read": true,
+                            "description": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "",
+                                "is_choice_table": false,
+                                "is_multi_text": true,
+                                "is_reference": false,
+                                "label": "Description",
+                                "max_length": 4000,
+                                "name": "description",
+                                "value": ""
+                            },
+                            "due_date": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "Due date",
+                                "max_length": 40,
+                                "name": "due_date",
+                                "value": ""
+                            },
+                            "number": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "PTSK0001002",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "Number",
+                                "max_length": 40,
+                                "name": "number",
+                                "value": "PTSK0001002"
+                            },
+                            "short_description": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "56574",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "Short description",
+                                "max_length": 160,
+                                "name": "short_description",
+                                "value": "56574"
+                            },
+                            "state": {
+                                "can_read": true,
+                                "can_write": true,
+                                "display_value": "Open",
+                                "is_choice_table": true,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "State",
+                                "max_length": 40,
+                                "name": "state",
+                                "value": "1"
+                            },
+                            "sys_class_name": "vtb_task",
+                            "sys_id": "781a006d476f71109387b979316d431d",
+                            "sys_updated_by": {
+                                "can_read": true,
+                                "can_write": false,
+                                "display_value": "admin",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "Updated by",
+                                "max_length": 40,
+                                "name": "sys_updated_by",
+                                "value": "admin"
+                            },
+                            "sys_updated_on": {
+                                "can_read": true,
+                                "can_write": false,
+                                "display_value": "2024-01-04 16:31:11",
+                                "is_choice_table": false,
+                                "is_multi_text": false,
+                                "is_reference": false,
+                                "label": "Updated",
+                                "max_length": 40,
+                                "name": "sys_updated_on",
+                                "value": "2024-01-05 00:31:11"
+                            }
+                        },
+                        "removed": false,
+                        "sla": null,
+                        "swim_lane_id": "",
+                        "sys_id": "b81a006d476f71109387b979316d431e",
+                        "sys_updated_on": "2024-01-05 00:31:11",
+                        "task_id": "781a006d476f71109387b979316d431d",
+                        "title": "56574",
+                        "users": {
+                            "additional_assignees": [
+                                
+                            ],
+                            "primary_assignees": [
+                                
+                            ]
+                        }
+                    }
+                ]
+            },
+            "cloneMode": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "customScrollOptions": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "enableScroll": false,
+                    "scrollTrackCSS": {
+                        "margin-bottom": "30px"
+                    }
+                }
+            },
+            "daActionMapping": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "NOW_VISUAL_BOARD#CARD_MOVED": {
+                        "actionDispatch": "DA_DEMO#SHOW_MODAL",
+                        "actionPayload": "{\"routeName\": \"sydney-image\"}",
+                        "actionType": "uxf_client_action",
+                        "assignmentId": "4a2098a147af71109387b979316d437d",
+                        "label": "View Sydney Image (DA Demo)",
+                        "name": "DA_DEMO#SHOW_MODAL"
+                    },
+                    "VTB#ADD_CARD_CLICKED": {
+                        "actionDispatch": "DA_DEMO#SHOW_MODAL",
+                        "actionPayload": "{\"routeName\": \"tokyo-image\"}",
+                        "actionType": "uxf_client_action",
+                        "assignmentId": "4a2098a147af71109387b979316d437d",
+                        "label": "View Tokyo Image (DA Demo)",
+                        "name": "DA_DEMO#SHOW_MODAL"
+                    }
+                }
+            },
+            "daClientActionContract": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "laneConfigOverride": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "addNewLane_sysId": {
+                        "draggable": false,
+                        "droppable": false,
+                        "hide_in_reorder": true,
+                        "tag_lane_footer": "div",
+                        "tag_lane_header": "sn-vtb-add-lane"
+                    }
+                }
+            },
+            "laneDragPlaceholderTag": {
+                "type": "JSON_LITERAL",
+                "value": "sn-vtb-lane-src-placeholder"
+            },
+            "laneDraggable": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "laneDropPlaceholderTag": {
+                "type": "JSON_LITERAL",
+                "value": "sn-vtb-lane-dest-placeholder"
+            },
+            "laneFooterTag": {
+                "type": "JSON_LITERAL",
+                "value": "sn-vtb-lane-footer"
+            },
+            "laneHeaderTag": {
+                "type": "JSON_LITERAL",
+                "value": "sn-vtb-lane-header"
+            },
+            "lanes": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    {
+                        "_style_": {
+                            "lane-footer-container": {
+                                "bottom": "30px",
+                                "position": "sticky"
+                            },
+                            "sn-lane": {
+                                "height": "calc(100% - 58px)",
+                                "overflow-y": "auto",
+                                "padding": "4px",
+                                "width": "285px"
+                            }
+                        },
+                        "board_id": "460a042d476f71109387b979316d4375",
+                        "can_delete": true,
+                        "cardsCount": 1,
+                        "hideTooltip": false,
+                        "id": "860a042d476f71109387b979316d437b",
+                        "is_choice_lane": false,
+                        "is_reference_lane": false,
+                        "is_swim_lane": false,
+                        "lane_wip_limit": -1,
+                        "name": "To Do",
+                        "non_localized_name": "To Do",
+                        "options": {
+                            "board_type": "FREEFORM",
+                            "can_add_task": true,
+                            "highest_lane_order": 2,
+                            "is2DBoard": false,
+                            "lane_count": 3,
+                            "lane_field": "__KANBAN__",
+                            "lane_filter": "",
+                            "menu_actions": [
+                                {
+                                    "id": "addCard",
+                                    "label": "Add card",
+                                    "uuid": "860a042d476f71109387b979316d437b"
+                                },
+                                {
+                                    "id": "hideLane",
+                                    "label": "Hide Lane",
+                                    "uuid": "860a042d476f71109387b979316d437b"
+                                },
+                                {
+                                    "id": "moveLane",
+                                    "label": "Move Lane",
+                                    "uuid": "860a042d476f71109387b979316d437b"
+                                },
+                                {
+                                    "id": "deleteLane",
+                                    "label": "Delete Lane",
+                                    "uuid": "860a042d476f71109387b979316d437b"
+                                },
+                                {
+                                    "id": "archiveAllCards",
+                                    "label": "Archive All Cards",
+                                    "uuid": "860a042d476f71109387b979316d437b"
+                                }
+                            ],
+                            "swimlane_field": "",
+                            "table": "vtb_task",
+                            "total_lane_count": 3
+                        },
+                        "order": 0,
+                        "primary_key_field": "sys_id",
+                        "read_only": false,
+                        "sys_id": "860a042d476f71109387b979316d437b",
+                        "title": "To Do",
+                        "value": ""
+                    },
+                    {
+                        "_style_": {
+                            "lane-footer-container": {
+                                "bottom": "30px",
+                                "position": "sticky"
+                            },
+                            "sn-lane": {
+                                "height": "calc(100% - 58px)",
+                                "overflow-y": "auto",
+                                "padding": "4px",
+                                "width": "285px"
+                            }
+                        },
+                        "board_id": "460a042d476f71109387b979316d4375",
+                        "can_delete": true,
+                        "cardsCount": 1,
+                        "hideTooltip": false,
+                        "id": "860a042d476f71109387b979316d437c",
+                        "is_choice_lane": false,
+                        "is_reference_lane": false,
+                        "is_swim_lane": false,
+                        "lane_wip_limit": -1,
+                        "name": "Doing",
+                        "non_localized_name": "Doing",
+                        "options": {
+                            "board_type": "FREEFORM",
+                            "can_add_task": true,
+                            "highest_lane_order": 2,
+                            "is2DBoard": false,
+                            "lane_count": 3,
+                            "lane_field": "__KANBAN__",
+                            "lane_filter": "",
+                            "menu_actions": [
+                                {
+                                    "id": "addCard",
+                                    "label": "Add card",
+                                    "uuid": "860a042d476f71109387b979316d437c"
+                                },
+                                {
+                                    "id": "hideLane",
+                                    "label": "Hide Lane",
+                                    "uuid": "860a042d476f71109387b979316d437c"
+                                },
+                                {
+                                    "id": "moveLane",
+                                    "label": "Move Lane",
+                                    "uuid": "860a042d476f71109387b979316d437c"
+                                },
+                                {
+                                    "id": "deleteLane",
+                                    "label": "Delete Lane",
+                                    "uuid": "860a042d476f71109387b979316d437c"
+                                },
+                                {
+                                    "id": "archiveAllCards",
+                                    "label": "Archive All Cards",
+                                    "uuid": "860a042d476f71109387b979316d437c"
+                                }
+                            ],
+                            "swimlane_field": "",
+                            "table": "vtb_task",
+                            "total_lane_count": 3
+                        },
+                        "order": 1,
+                        "primary_key_field": "sys_id",
+                        "read_only": false,
+                        "sys_id": "860a042d476f71109387b979316d437c",
+                        "title": "Doing",
+                        "value": ""
+                    },
+                    {
+                        "_style_": {
+                            "lane-footer-container": {
+                                "bottom": "30px",
+                                "position": "sticky"
+                            },
+                            "sn-lane": {
+                                "height": "calc(100% - 58px)",
+                                "overflow-y": "auto",
+                                "padding": "4px",
+                                "width": "285px"
+                            }
+                        },
+                        "board_id": "460a042d476f71109387b979316d4375",
+                        "can_delete": true,
+                        "cardsCount": 1,
+                        "hideTooltip": false,
+                        "id": "ca0a042d476f71109387b979316d437c",
+                        "is_choice_lane": false,
+                        "is_reference_lane": false,
+                        "is_swim_lane": false,
+                        "lane_wip_limit": -1,
+                        "name": "Done",
+                        "non_localized_name": "Done",
+                        "options": {
+                            "board_type": "FREEFORM",
+                            "can_add_task": true,
+                            "highest_lane_order": 2,
+                            "is2DBoard": false,
+                            "lane_count": 3,
+                            "lane_field": "__KANBAN__",
+                            "lane_filter": "",
+                            "menu_actions": [
+                                {
+                                    "id": "addCard",
+                                    "label": "Add card",
+                                    "uuid": "ca0a042d476f71109387b979316d437c"
+                                },
+                                {
+                                    "id": "hideLane",
+                                    "label": "Hide Lane",
+                                    "uuid": "ca0a042d476f71109387b979316d437c"
+                                },
+                                {
+                                    "id": "moveLane",
+                                    "label": "Move Lane",
+                                    "uuid": "ca0a042d476f71109387b979316d437c"
+                                },
+                                {
+                                    "id": "deleteLane",
+                                    "label": "Delete Lane",
+                                    "uuid": "ca0a042d476f71109387b979316d437c"
+                                },
+                                {
+                                    "id": "archiveAllCards",
+                                    "label": "Archive All Cards",
+                                    "uuid": "ca0a042d476f71109387b979316d437c"
+                                }
+                            ],
+                            "swimlane_field": "",
+                            "table": "vtb_task",
+                            "total_lane_count": 3
+                        },
+                        "order": 2,
+                        "primary_key_field": "sys_id",
+                        "read_only": false,
+                        "sys_id": "ca0a042d476f71109387b979316d437c",
+                        "title": "Done",
+                        "value": ""
+                    },
+                    {
+                        "board_id": "460a042d476f71109387b979316d4375",
+                        "hideTooltip": false,
+                        "id": "addNewLane_sysId",
+                        "isPlaceholder": true,
+                        "lanes_reference_table_records": "",
+                        "options": {
+                            "board_type": "FREEFORM",
+                            "can_add_task": true,
+                            "highest_lane_order": 2,
+                            "is2DBoard": false,
+                            "lane_count": 3,
+                            "lane_field": "__KANBAN__",
+                            "lane_filter": "",
+                            "menu_actions": [
+                                {
+                                    "id": "addCard",
+                                    "label": "Add card",
+                                    "uuid": "addNewLane_sysId"
+                                },
+                                {
+                                    "id": "hideLane",
+                                    "label": "Hide Lane",
+                                    "uuid": "addNewLane_sysId"
+                                },
+                                {
+                                    "id": "moveLane",
+                                    "label": "Move Lane",
+                                    "uuid": "addNewLane_sysId"
+                                },
+                                {
+                                    "id": "deleteLane",
+                                    "label": "Delete Lane",
+                                    "uuid": "addNewLane_sysId"
+                                }
+                            ],
+                            "swimlane_field": "",
+                            "table": "vtb_task",
+                            "total_lane_count": 3
+                        },
+                        "order": 3,
+                        "title": "Add lane button",
+                        "value": ""
+                    }
+                ]
+            },
+            "loadTagsFromUxf": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "styles": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "sn-board": {
+                        "height": "100vh",
+                        "overflow-y": "hidden"
+                    }
+                }
+            },
+            "swimlaneConfigOverride": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "addNewSwimlane_sysId": {
+                        "draggable": false,
+                        "droppable": false,
+                        "hide_in_reorder": true,
+                        "tag_swimlane_header": "sn-vtb-add-swimlane"
+                    }
+                }
+            },
+            "swimlaneDragPlaceholderTag": {
+                "type": "JSON_LITERAL",
+                "value": "sn-vtb-swimlane-src-placeholder"
+            },
+            "swimlaneDraggable": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "swimlaneDropPlaceholderTag": {
+                "type": "JSON_LITERAL",
+                "value": "sn-vtb-swimlane-dest-placeholder"
+            },
+            "swimlaneHeaderCloneTag": {
+                "type": "JSON_LITERAL",
+                "value": "sn-vtb-swimlane-header-clone"
+            },
+            "swimlaneHeaderTag": {
+                "type": "JSON_LITERAL",
+                "value": "sn-vtb-swimlane-header"
+            },
+            "swimlanes": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    
+                ]
+            },
+            "useArrowNavigation": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "wrapperDomEvents": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    {
+                        "action": "VTB#WRAPPER_DOM_ACTION_PERFORMED",
+                        "events": [
+                            "keydown"
+                        ],
+                        "on": [
+                            "sn-lane-header",
+                            "sn-card-wrapper",
+                            "sn-swimlane-header",
+                            "lane-footer-container"
+                        ]
+                    }
+                ]
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "9c2e3b0978b3250ef3081204f151026a",
+            "type": "MACROPONENT"
+        },
+        "elementId": "modal_viewport",
+        "elementLabel": "Modal viewport",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "MACROPONENT_VIEWPORT_HEADLESS",
+                        "type": "MACROPONENT_VIEWPORT_HEADLESS"
+                    },
+                    "elementId": "viewport_1",
+                    "elementLabel": "Viewport 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "extensionPoints": [
+                        {
+                            "appShell": "76a83a645b122010b913030a1d81c780",
+                            "controllerName": null,
+                            "inUse": false,
+                            "isControllerPresent": false,
+                            "name": "Declarative Actions Demo Viewports for Modals",
+                            "subroutes": [
+                                {
+                                    "name": "Episode player",
+                                    "routeType": "episode-player",
+                                    "screenType": "6a35fd5947e371109387b979316d430f",
+                                    "screens": [
+                                        {
+                                            "name": "Default",
+                                            "sysId": "a635fd5947e371109387b979316d4317"
+                                        }
+                                    ],
+                                    "sysId": "6235fd5947e371109387b979316d4312"
+                                },
+                                {
+                                    "name": "Sydney image",
+                                    "routeType": "sydney-image",
+                                    "screenType": "4c7379d547e371109387b979316d4352",
+                                    "screens": [
+                                        {
+                                            "name": "Default",
+                                            "sysId": "1873bdd547e371109387b979316d434e"
+                                        }
+                                    ],
+                                    "sysId": "407379d547e371109387b979316d4355"
+                                },
+                                {
+                                    "name": "Tokyo image",
+                                    "routeType": "tokyo-image",
+                                    "screenType": "922379d547e371109387b979316d4341",
+                                    "screens": [
+                                        {
+                                            "name": "Default",
+                                            "sysId": "d22379d547e371109387b979316d434a"
+                                        }
+                                    ],
+                                    "sysId": "122379d547e371109387b979316d4344"
+                                }
+                            ],
+                            "sysId": "c2b231d547e371109387b979316d436c",
+                            "sysScope": {
+                                "displayValue": "Declarative Actions Demo",
+                                "scopeName": "x_snc_da_demo",
+                                "value": "0b505b80978fb5103f46bdc71153afe2"
+                            },
+                            "type": "viewport"
+                        }
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "pageCollectionMode": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "viewport_1",
+                            "styles": {}
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "bare": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "defer": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "disableDismiss": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "enableResizable": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "labelledby": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "resizableMaxHeight": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMaxWidth": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMinHeight": {
+                "type": "JSON_LITERAL",
+                "value": 133
+            },
+            "resizableMinWidth": {
+                "type": "JSON_LITERAL",
+                "value": 420
+            },
+            "size": {
+                "type": "JSON_LITERAL",
+                "value": "md"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    
+]</data>
+        <description/>
+        <dispatched_events>5e41546547af71109387b979316d43cb</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events>d952399547e371109387b979316d4347</handled_events>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+    "x_snc_da_demo.DA_DEMO#OPEN_ROUTE_IN_MODAL": [
+        {
+            "broker": null,
+            "clientScript": null,
+            "conditional": null,
+            "declarativeAction": null,
+            "event": {
+                "apiName": "x_snc_da_demo.MODAL_SELECTED_RELAY_4db94f8d476731109387b979316d4358",
+                "payload": {
+                    "container": {
+                        "bare": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "displayOptions": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "modalId": {
+                            "type": "JSON_LITERAL",
+                            "value": "[component-id$='modal_viewport']"
+                        },
+                        "showModal": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "viewportElementId": {
+                            "type": "JSON_LITERAL",
+                            "value": "viewport_1"
+                        },
+                        "viewportFields": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "viewportParams": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "viewportRoute": {
+                            "binding": {
+                                "address": [
+                                    "newRouteName"
+                                ]
+                            },
+                            "type": "EVENT_PAYLOAD_BINDING"
+                        }
+                    },
+                    "type": "MAP_CONTAINER"
+                },
+                "sysId": "5e41546547af71109387b979316d43cb"
+            },
+            "operation": null,
+            "targetId": "clqzxnilpaabbjjrddbhhsiryzrwbee",
+            "type": "EVENT"
+        }
+    ]
+}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "kanban_board_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default – Kanban</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ {
+  "message" : "Add card",
+  "comment" : ""
+}, {
+  "message" : "Additional assignee list",
+  "comment" : ""
+}, {
+  "message" : "Archive All Cards",
+  "comment" : ""
+}, {
+  "message" : "Archive Card",
+  "comment" : ""
+}, {
+  "message" : "Assigned to",
+  "comment" : ""
+}, {
+  "message" : "Assignment group",
+  "comment" : ""
+}, {
+  "message" : "Delete Lane",
+  "comment" : ""
+}, {
+  "message" : "Description",
+  "comment" : ""
+}, {
+  "message" : "Due date",
+  "comment" : ""
+}, {
+  "message" : "Hide Lane",
+  "comment" : ""
+}, {
+  "message" : "Move Card",
+  "comment" : ""
+}, {
+  "message" : "Move Lane",
+  "comment" : ""
+}, {
+  "message" : "Number",
+  "comment" : ""
+}, {
+  "message" : "Short description",
+  "comment" : ""
+}, {
+  "message" : "State",
+  "comment" : ""
+}, {
+  "message" : "Updated",
+  "comment" : ""
+}, {
+  "message" : "Updated by",
+  "comment" : ""
+}, {
+  "message" : "View Sydney Image (DA Demo)",
+  "comment" : ""
+}, {
+  "message" : "View Tokyo Image (DA Demo)",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 01:11:28</sys_created_on>
+        <sys_id>4db94f8d476731109387b979316d4358</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Default – Kanban</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_ux_macroponent_4db94f8d476731109387b979316d4358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-05 02:25:46</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=4db94f8d476731109387b979316d4358"/>
+</record_update>

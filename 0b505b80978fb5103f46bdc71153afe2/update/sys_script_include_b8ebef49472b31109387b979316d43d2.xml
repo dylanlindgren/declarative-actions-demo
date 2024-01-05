@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_da_demo.DADemoHelper</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>DADemoHelper</name>
+        <script><![CDATA[var DADemoHelper = Class.create();
+DADemoHelper.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	type: 'DADemoHelper',
+	getRandomPodcastEpisode: function getRandomPodcastEpisode() {
+		let episodeGr = new GlideRecord('x_snc_da_demo_episode');
+		episodeGr.query();
+
+		let episodes = [];
+
+		while (episodeGr.next()) {
+			episodes.push(episodeGr.getUniqueValue());
+		}
+
+		const randomRow = Math.floor(Math.random() * (episodes.length));
+
+		return episodes[randomRow];
+	}
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 03:41:17</sys_created_on>
+        <sys_id>b8ebef49472b31109387b979316d43d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>DADemoHelper</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_script_include_b8ebef49472b31109387b979316d43d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 03:42:11</sys_updated_on>
+    </sys_script_include>
+</record_update>

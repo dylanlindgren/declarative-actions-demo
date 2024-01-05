@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_question">
+    <sc_wizard_question action="INSERT_OR_UPDATE">
+        <item_option_new display_value="Audio File URL">00a26899472f31109387b979316d4358</item_option_new>
+        <map_to_set>false</map_to_set>
+        <order>0</order>
+        <question_or_set>Audio File URL</question_or_set>
+        <set/>
+        <sys_class_name>sc_wizard_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 07:42:17</sys_created_on>
+        <sys_id>e02324d9472f31109387b979316d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sc_wizard_question_e02324d9472f31109387b979316d43fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 07:42:17</sys_updated_on>
+        <wizard_section display_value="Details">8703a0d9472f31109387b979316d43b7</wizard_section>
+    </sc_wizard_question>
+</record_update>

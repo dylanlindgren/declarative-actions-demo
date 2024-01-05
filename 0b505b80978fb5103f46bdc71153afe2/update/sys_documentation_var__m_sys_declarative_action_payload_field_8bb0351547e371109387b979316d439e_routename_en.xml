@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="routeName" label="routeName" language="en" table="var__m_sys_declarative_action_payload_field_8bb0351547e371109387b979316d439e">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>routeName</element>
+            <help/>
+            <hint/>
+            <label>routeName</label>
+            <language>en</language>
+            <name>var__m_sys_declarative_action_payload_field_8bb0351547e371109387b979316d439e</name>
+            <plural>routeName</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-04 13:37:54</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>routeName</sys_name>
+            <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_declarative_action_payload_field_8bb0351547e371109387b979316d439e_routeName_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-04 13:37:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

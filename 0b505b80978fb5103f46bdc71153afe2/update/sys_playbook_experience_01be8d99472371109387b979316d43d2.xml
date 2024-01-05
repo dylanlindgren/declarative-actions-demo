@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience">
+    <sys_playbook_experience action="INSERT_OR_UPDATE">
+        <name>Declarative Actions Demo</name>
+        <sys_class_name>sys_playbook_experience</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 10:52:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>01be8d99472371109387b979316d43d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Declarative Actions Demo</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_playbook_experience_01be8d99472371109387b979316d43d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 10:52:44</sys_updated_on>
+    </sys_playbook_experience>
+</record_update>

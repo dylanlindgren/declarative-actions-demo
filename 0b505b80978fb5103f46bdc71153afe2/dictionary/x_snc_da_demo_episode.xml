@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="eb239f8947a731109387b979316d43ec" label="Podcast Episode" max_length="40" name="x_snc_da_demo_episode" type="collection">
+        <element label="Audio file URL" max_length="1024" name="audio_file_url" type="url"/>
+        <element display="true" label="Name" max_length="128" name="name" type="string"/>
+    </element>
+</database>

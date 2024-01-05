@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="Set Episode Randomly (Client)">d0d72f05472b31109387b979316d4302</action>
+        <active>true</active>
+        <color/>
+        <description/>
+        <item_type>action</item_type>
+        <label>Set Episode (Client)</label>
+        <layout_group/>
+        <name>Set Episode Randomly</name>
+        <order>0</order>
+        <overflow>false</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 03:24:39</sys_created_on>
+        <sys_id>b5a7ab05472b31109387b979316d4352</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Episode (Client)</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_b5a7ab05472b31109387b979316d4352</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 03:47:12</sys_updated_on>
+        <table>incident</table>
+    </sys_ux_form_action_layout_item>
+</record_update>

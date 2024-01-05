@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard">
+    <sc_wizard action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <dynamic_title>Create Podcast Episode</dynamic_title>
+        <feeback_panel>true</feeback_panel>
+        <layout>stacked</layout>
+        <name>Create Podcast Episode</name>
+        <producer display_value="Create Podcast Episode">e1726499472f31109387b979316d43a5</producer>
+        <review_step_label>Review and submit</review_step_label>
+        <short_description>Create Podcast Episode</short_description>
+        <show_cancel>false</show_cancel>
+        <show_review_step>true</show_review_step>
+        <show_save>false</show_save>
+        <show_submit_on_the_last_step>true</show_submit_on_the_last_step>
+        <submit_label>Submit</submit_label>
+        <sys_class_name>sc_wizard</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 07:41:29</sys_created_on>
+        <sys_id>76e220d9472f31109387b979316d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Podcast Episode</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sc_wizard_76e220d9472f31109387b979316d433b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 07:41:29</sys_updated_on>
+        <type>rp</type>
+        <update_label>Save</update_label>
+    </sc_wizard>
+    <sys_translated_text action="delete_multiple" query="documentkey=76e220d9472f31109387b979316d433b"/>
+</record_update>

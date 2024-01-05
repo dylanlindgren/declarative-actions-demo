@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d76dcbc147a731109387b979316d4307</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="incident">
+    <incident action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to/>
+        <assignment_group/>
+        <business_duration/>
+        <business_impact/>
+        <business_service/>
+        <business_stc/>
+        <calendar_duration/>
+        <calendar_stc/>
+        <caller_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</caller_id>
+        <category>inquiry</category>
+        <cause/>
+        <caused_by/>
+        <child_incidents>0</child_incidents>
+        <close_code/>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description/>
+        <due_date/>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <hold_reason/>
+        <impact>3</impact>
+        <incident_state>1</incident_state>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <notify>1</notify>
+        <number>INC0010001</number>
+        <opened_at>2024-01-04 01:27:44</opened_at>
+        <opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by>
+        <order/>
+        <origin_id/>
+        <origin_table/>
+        <parent/>
+        <parent_incident/>
+        <priority>5</priority>
+        <problem_id/>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <reopen_count>0</reopen_count>
+        <reopened_by/>
+        <reopened_time/>
+        <resolved_at/>
+        <resolved_by/>
+        <rfc/>
+        <route_reason/>
+        <service_offering/>
+        <severity>3</severity>
+        <short_description>Test incident for Declarative Actions Demo application</short_description>
+        <sla_due/>
+        <state>1</state>
+        <subcategory/>
+        <sys_class_name>incident</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 01:28:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d76dcbc147a731109387b979316d4307</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 02:03:39</sys_updated_on>
+        <task_effective_number>INC0010001</task_effective_number>
+        <time_worked/>
+        <universal_request/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+        <x_snc_da_demo_podcast_episode display_value="Sharp Tech – Epsiode 112">f1e39fc947a731109387b979316d43f1</x_snc_da_demo_podcast_episode>
+    </incident>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 01:28:45</sys_created_on>
+        <sys_id>5ead4bc147a731109387b979316d43fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>INC0010001</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_metadata_link_5ead4bc147a731109387b979316d43fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 02:07:53</sys_updated_on>
+        <tablename>incident</tablename>
+    </sys_metadata_link>
+</record_update>

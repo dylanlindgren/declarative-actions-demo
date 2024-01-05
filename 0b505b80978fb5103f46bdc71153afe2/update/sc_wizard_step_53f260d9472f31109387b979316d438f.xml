@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_step">
+    <sc_wizard_step action="INSERT_OR_UPDATE">
+        <custom>false</custom>
+        <feedback/>
+        <hide_on_template>false</hide_on_template>
+        <macroponent/>
+        <name>Episode Details</name>
+        <order>0</order>
+        <short_description>Episode Details</short_description>
+        <sys_class_name>sc_wizard_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 07:41:46</sys_created_on>
+        <sys_id>53f260d9472f31109387b979316d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Episode Details</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sc_wizard_step_53f260d9472f31109387b979316d438f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 07:41:46</sys_updated_on>
+        <template_feedback/>
+        <use_same_feedback_in_template>true</use_same_feedback_in_template>
+        <wizard display_value="Create Podcast Episode">76e220d9472f31109387b979316d433b</wizard>
+    </sc_wizard_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=53f260d9472f31109387b979316d438f"/>
+</record_update>

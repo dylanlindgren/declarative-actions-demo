@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_1",
+        "elementLabel": "Stylized text 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* { }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "h1"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "EVAM"
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "fae56519b74e7995b69ae7cf66e280f9",
+            "type": "MACROPONENT"
+        },
+        "elementId": "data_row",
+        "elementLabel": "Data row",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "cardHeightHorizontal": {
+                "type": "JSON_LITERAL",
+                "value": "sm"
+            },
+            "daClientActionContract": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "data": {
+                "binding": {
+                    "address": [
+                        "evam_data",
+                        "compositeDataViews"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
+            },
+            "dataBrokerIsLoading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "layout": {
+                "type": "JSON_LITERAL",
+                "value": "horizontal"
+            },
+            "maxVisibleCardsHorizontal": {
+                "type": "JSON_LITERAL",
+                "value": "4"
+            },
+            "minCardPixelWidth": {
+                "type": "JSON_LITERAL",
+                "value": 254
+            },
+            "noBox": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "noDataMessage": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "No content to display."
+                }
+            },
+            "title": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "titleHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "titleStyleVariant": {
+                "type": "JSON_LITERAL",
+                "value": "header-secondary"
+            },
+            "viewAllLinkLabel": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "View All"
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_2",
+        "elementLabel": "Stylized text 2",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* { }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "p"
+            },
+            "text": {
+                "binding": {
+                    "address": [
+                        "look_up_record",
+                        "result",
+                        "audio_file_url",
+                        "value"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "e6af35d9dbb810106b3982c9689619e5",
+            "type": "COMPOSITE"
+        },
+        "dependencies": {},
+        "elementId": "evam_data",
+        "elementLabel": "EVAM",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "evamDefinitionId": {
+                "type": "JSON_LITERAL",
+                "value": "61e95cdd47eb31109387b979316d432c"
+            },
+            "filterPreference": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "pageCursor": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "pageNumber": {
+                "type": "JSON_LITERAL",
+                "value": "0"
+            },
+            "pageSize": {
+                "type": "JSON_LITERAL",
+                "value": "20"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "9664d48053461010cbc2ddeeff7b128e",
+            "type": "COMPOSITE"
+        },
+        "dependencies": {},
+        "elementId": "look_up_record",
+        "elementLabel": "Look Up Record",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "recordId": {
+                "binding": {
+                    "address": [
+                        "episodeToPlaySysId"
+                    ]
+                },
+                "type": "STATE_BINDING"
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": "audio_file_url"
+            },
+            "returnTableMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_snc_da_demo_episode"
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
+    }
+]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events>2e83e78d47e731109387b979316d43a5</handled_events>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+    "x_snc_da_demo.DA_DEMO#PLAY_PODCAST_AUDIO": [
+        {
+            "broker": null,
+            "clientScript": null,
+            "conditional": null,
+            "declarativeAction": null,
+            "event": {
+                "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                "payload": {
+                    "container": {
+                        "propName": {
+                            "type": "JSON_LITERAL",
+                            "value": "episodeToPlaySysId"
+                        },
+                        "value": {
+                            "binding": {
+                                "address": [
+                                    "episodeId"
+                                ]
+                            },
+                            "type": "EVENT_PAYLOAD_BINDING"
+                        }
+                    },
+                    "type": "MAP_CONTAINER"
+                },
+                "sysId": "32408b42ff7a10109046e490703bf176"
+            },
+            "operation": null,
+            "targetId": "clraabbgghdddaabbcvddbhhseeomczefq",
+            "type": "EVENT"
+        }
+    ]
+}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "stylized_text_1",
+                "styles": {}
+            },
+            {
+                "element_id": "data_row",
+                "styles": {}
+            },
+            {
+                "element_id": "stylized_text_2",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default – EVAM</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ {
+  "message" : "EVAM",
+  "comment" : ""
+}, {
+  "message" : "No content to display.",
+  "comment" : ""
+}, {
+  "message" : "View All",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[
+    {
+        "initialValue": null,
+        "name": "episodeToPlaySysId",
+        "shape": "",
+        "valueType": "string"
+    }
+]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 01:11:36</sys_created_on>
+        <sys_id>03b94f8d476731109387b979316d43d3</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>Default – EVAM</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_ux_macroponent_03b94f8d476731109387b979316d43d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-05 03:16:50</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=03b94f8d476731109387b979316d43d3"/>
+</record_update>

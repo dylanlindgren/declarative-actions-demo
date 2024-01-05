@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" db_object_id="de3e0c68d9b13110cedf7dffddb48fd6" extends="task" label="Incident" max_length="40" name="incident" text_index="true" type="collection">
+        <element label="Podcast episode" max_length="32" name="x_snc_da_demo_podcast_episode" reference="x_snc_da_demo_episode" type="reference"/>
+    </element>
+</database>

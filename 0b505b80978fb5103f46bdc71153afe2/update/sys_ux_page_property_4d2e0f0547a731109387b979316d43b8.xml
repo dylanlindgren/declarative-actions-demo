@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>View for the table when view rule for the table is not defined</description>
+        <name>view</name>
+        <page display_value="Declarative Actions Demo">fa788b0d476731109387b979316d43c4</page>
+        <required_translations/>
+        <route/>
+        <suffix>view</suffix>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 01:31:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>4d2e0f0547a731109387b979316d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_ux_page_property_4d2e0f0547a731109387b979316d43b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 01:31:10</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_da_demo.fa788b0d476731109387b979316d43c4.root.view</unique_name>
+        <value>da_demo</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=4d2e0f0547a731109387b979316d43b8"/>
+</record_update>

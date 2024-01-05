@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "ed99051389038d7a6d57069eecc5a122",
+            "type": "MACROPONENT"
+        },
+        "elementId": "playbook",
+        "elementLabel": "Playbook",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "activityView": {
+                "type": "JSON_LITERAL",
+                "value": "focused"
+            },
+            "compactMode": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "daClientActionContract": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "enableFullWidthCards": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "parentSysId": {
+                "type": "JSON_LITERAL",
+                "value": "d16763c1472b31109387b979316d438f"
+            },
+            "parentTable": {
+                "type": "JSON_LITERAL",
+                "value": "x_snc_da_demo_episode"
+            },
+            "playbookExperienceId": {
+                "type": "JSON_LITERAL",
+                "value": "01be8d99472371109387b979316d43d2"
+            },
+            "recordGeneratorQuery": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "selectedActivityContextId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "selectedLaneContextId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "selectedPlaybookContextId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "userId": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "userSession": {
+                "binding": {
+                    "address": [
+                        "user"
+                    ],
+                    "category": "session"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "9c2e3b0978b3250ef3081204f151026a",
+            "type": "MACROPONENT"
+        },
+        "elementId": "modal_viewport",
+        "elementLabel": "Modal viewport",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "MACROPONENT_VIEWPORT_HEADLESS",
+                        "type": "MACROPONENT_VIEWPORT_HEADLESS"
+                    },
+                    "elementId": "viewport_1",
+                    "elementLabel": "Viewport 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "extensionPoints": [
+                        {
+                            "appShell": "76a83a645b122010b913030a1d81c780",
+                            "controllerName": null,
+                            "inUse": false,
+                            "isControllerPresent": false,
+                            "name": "Declarative Actions Demo Viewports for Modals",
+                            "subroutes": [
+                                
+                            ],
+                            "sysId": "c2b231d547e371109387b979316d436c",
+                            "sysScope": {
+                                "displayValue": "Declarative Actions Demo",
+                                "scopeName": "x_snc_da_demo",
+                                "value": "0b505b80978fb5103f46bdc71153afe2"
+                            },
+                            "type": "viewport"
+                        }
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "pageCollectionMode": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "viewport_1",
+                            "styles": {}
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "bare": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "defer": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "disableDismiss": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "enableResizable": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "labelledby": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "resizableMaxHeight": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMaxWidth": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMinHeight": {
+                "type": "JSON_LITERAL",
+                "value": 133
+            },
+            "resizableMinWidth": {
+                "type": "JSON_LITERAL",
+                "value": 420
+            },
+            "size": {
+                "type": "JSON_LITERAL",
+                "value": "md"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    
+]</data>
+        <description/>
+        <dispatched_events>2a24fdd547e371109387b979316d4376</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events>d952399547e371109387b979316d4347,6bff03c547a731109387b979316d43c9</handled_events>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+    "x_snc_da_demo.DA_DEMO#OPEN_ROUTE_IN_MODAL": [
+        {
+            "broker": null,
+            "clientScript": null,
+            "conditional": null,
+            "declarativeAction": null,
+            "event": {
+                "apiName": "x_snc_da_demo.MODAL_SELECTED_RELAY_f5a90f8d476731109387b979316d434e",
+                "payload": {
+                    "container": {
+                        "bare": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "displayOptions": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "modalId": {
+                            "type": "JSON_LITERAL",
+                            "value": "[component-id$='modal_viewport']"
+                        },
+                        "showModal": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "viewportElementId": {
+                            "type": "JSON_LITERAL",
+                            "value": "viewport_1"
+                        },
+                        "viewportFields": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "viewportParams": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "viewportRoute": {
+                            "binding": {
+                                "address": [
+                                    "newRouteName"
+                                ]
+                            },
+                            "type": "EVENT_PAYLOAD_BINDING"
+                        }
+                    },
+                    "type": "MAP_CONTAINER"
+                },
+                "sysId": "2a24fdd547e371109387b979316d4376"
+            },
+            "operation": null,
+            "targetId": "clqzjjeealjaabbawddbhhsiicdvnxiit",
+            "type": "EVENT"
+        }
+    ],
+    "x_snc_da_demo.DA_DEMO#PLAY_PODCAST_EPISODE_IN_MODAL": [
+        {
+            "broker": null,
+            "clientScript": null,
+            "conditional": null,
+            "declarativeAction": null,
+            "event": {
+                "apiName": "x_snc_da_demo.MODAL_SELECTED_RELAY_f5a90f8d476731109387b979316d434e",
+                "payload": {
+                    "container": {
+                        "bare": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "displayOptions": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "modalId": {
+                            "type": "JSON_LITERAL",
+                            "value": "[component-id$='modal_viewport']"
+                        },
+                        "showModal": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "viewportElementId": {
+                            "type": "JSON_LITERAL",
+                            "value": "viewport_1"
+                        },
+                        "viewportFields": {
+                            "binding": {
+                                "address": [
+                                    "fields"
+                                ]
+                            },
+                            "type": "EVENT_PAYLOAD_BINDING"
+                        },
+                        "viewportParams": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "viewportRoute": {
+                            "type": "JSON_LITERAL",
+                            "value": "episode-player"
+                        }
+                    },
+                    "type": "MAP_CONTAINER"
+                },
+                "sysId": "2a24fdd547e371109387b979316d4376"
+            },
+            "operation": null,
+            "targetId": "clqzjjockvaabbahddbiiccdgdwcpkm",
+            "type": "EVENT"
+        }
+    ]
+}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "playbook",
+                "styles": {
+                    "height": "calc(100vh - 93px)"
+                }
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default – Playbook</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 01:11:15</sys_created_on>
+        <sys_id>f5a90f8d476731109387b979316d434e</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Default – Playbook</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_ux_macroponent_f5a90f8d476731109387b979316d434e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 13:53:06</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=f5a90f8d476731109387b979316d434e"/>
+</record_update>

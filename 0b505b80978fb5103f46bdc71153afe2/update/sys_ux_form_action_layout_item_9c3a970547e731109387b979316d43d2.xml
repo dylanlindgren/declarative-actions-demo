@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="Play Podcast Episode (DA Demo)">8d4a1b0547e731109387b979316d432e</action>
+        <active>true</active>
+        <color>primary</color>
+        <description/>
+        <item_type>action</item_type>
+        <label>Play from Start (UXF)</label>
+        <layout_group/>
+        <name>Play Podcast Episode (DA Demo)</name>
+        <order>0</order>
+        <overflow>false</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 02:24:35</sys_created_on>
+        <sys_id>9c3a970547e731109387b979316d43d2</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Play from Start (UXF)</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_9c3a970547e731109387b979316d43d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 05:04:38</sys_updated_on>
+        <table>global</table>
+    </sys_ux_form_action_layout_item>
+</record_update>

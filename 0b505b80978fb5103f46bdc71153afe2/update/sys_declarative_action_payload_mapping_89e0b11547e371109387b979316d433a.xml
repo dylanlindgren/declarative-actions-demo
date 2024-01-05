@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="(DA Demo) Show a Modal">8bb0351547e371109387b979316d439e</action_payload_definition>
+        <label>(DA Demo) Show a Modal Playbook</label>
+        <model display_value="Playbook">16f2aef6c32110109b1204186e40dd7f</model>
+        <payload_map>routeName=^EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 13:21:56</sys_created_on>
+        <sys_id>89e0b11547e371109387b979316d433a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>(DA Demo) Show a Modal Playbook</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_89e0b11547e371109387b979316d433a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 13:37:55</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

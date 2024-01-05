@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="DELETE">
+        <action_payload_definition display_value="(DA Demo) Show a Modal">8bb0351547e371109387b979316d439e</action_payload_definition>
+        <label>(DA Demo) Show a Modal  Playbook Card</label>
+        <model display_value="Playbook Card">ca57d12e730333004a905ee515f6a7b2</model>
+        <payload_map>EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 13:21:56</sys_created_on>
+        <sys_id>01e0b11547e371109387b979316d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(DA Demo) Show a Modal  Playbook Card</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_01e0b11547e371109387b979316d433e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 13:21:56</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</application>
+        <file_path/>
+        <instance_id>5044d659db2efd98ae4c9027c59619f7</instance_id>
+        <instance_name>dev212741</instance_name>
+        <name>sys_declarative_action_payload_mapping_01e0b11547e371109387b979316d433e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping"><sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE"><action_payload_definition display_value="(DA Demo) Show a Modal">8bb0351547e371109387b979316d439e</action_payload_definition><label>(DA Demo) Show a Modal  Playbook Card</label><model display_value="Playbook Card">ca57d12e730333004a905ee515f6a7b2</model><payload_map>EQ</payload_map><sys_class_name>sys_declarative_action_payload_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-04 13:21:56</sys_created_on><sys_id>01e0b11547e371109387b979316d433e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>(DA Demo) Show a Modal  Playbook Card</sys_name><sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package><sys_policy/><sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope><sys_update_name>sys_declarative_action_payload_mapping_01e0b11547e371109387b979316d433e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-04 13:21:56</sys_updated_on></sys_declarative_action_payload_mapping></record_update>]]></payload>
+        <payload_hash>605312469</payload_hash>
+        <record_name>(DA Demo) Show a Modal  Playbook Card</record_name>
+        <reverted_from/>
+        <source>3b250785476731109387b979316d43e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 13:21:56</sys_created_on>
+        <sys_id>4de0b11547e371109387b979316d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cd4a33a470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 13:21:56</sys_updated_on>
+        <type>Action Payload Mapping</type>
+        <update_guid>81e0b115b6e3711078c5f3294261b93f</update_guid>
+        <update_guid_history>81e0b115b6e3711078c5f3294261b93f:605312469</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 13:24:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_declarative_action_payload_mapping">sys_declarative_action_payload_mapping</sys_db_object>
+        <sys_id>bc0e9842664441a4b72864a6c0d94510</sys_id>
+        <sys_metadata>01e0b11547e371109387b979316d433e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(DA Demo) Show a Modal  Playbook Card</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_scope_delete display_value="">5990b41fb6ba480b8bd94f05e78271a1</sys_scope_delete>
+        <sys_update_name>sys_declarative_action_payload_mapping_01e0b11547e371109387b979316d433e</sys_update_name>
+        <sys_update_version display_value="sys_declarative_action_payload_mapping_01e0b11547e371109387b979316d433e">4de0b11547e371109387b979316d433f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 13:24:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

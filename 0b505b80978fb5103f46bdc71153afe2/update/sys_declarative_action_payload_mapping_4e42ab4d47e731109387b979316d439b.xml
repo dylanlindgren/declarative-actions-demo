@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="(DA Demo) Play Podcast Episode">4a42674d47e731109387b979316d436a</action_payload_definition>
+        <label>(DA Demo) Play Podcast Episode  Playbook Card</label>
+        <model display_value="Playbook Card">ca57d12e730333004a905ee515f6a7b2</model>
+        <payload_map>episodeId={{sysId}}^startAtTime=00:00:00^EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 02:58:52</sys_created_on>
+        <sys_id>4e42ab4d47e731109387b979316d439b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(DA Demo) Play Podcast Episode  Playbook Card</sys_name>
+        <sys_package display_value="Declarative Actions Demo" source="x_snc_da_demo">0b505b80978fb5103f46bdc71153afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Declarative Actions Demo">0b505b80978fb5103f46bdc71153afe2</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_4e42ab4d47e731109387b979316d439b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 02:58:52</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>
